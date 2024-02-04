@@ -1,0 +1,126 @@
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./travel.jpg') center/cover no-repeat; 
+    position: relative;
+    opacity: 0.9;
+
+}
+  
+
+.glass-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+  backdrop-filter: blur(10px); 
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 10px;
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+
+.dropdown-outside {
+  position: relative;
+  left: 0;
+  width: 96%;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 3;
+}
+
+.dropdown {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #dfe1e5;
+  border-radius: 0 0 24px 24px;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:active {
+    background-color: #3498db; 
+  }
+  
+
+  .card-container{
+    margin-top: 50px;
+    justify-content: space-around;
+    /* max-width: 2500px;  */
+    width: 100%;
+    overflow-y: auto;
+  }
+
+
+  
+  .card-row {
+    display: flex; 
+    justify-content: space-around;
+    width: 2500px;
+  }
+  
+  .card {
+    width: 600px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+  }
+  
+
+  .title {
+    color: #3498db; 
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+
+  .test{
+    height: 100px;
+  }

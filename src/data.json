@@ -1,0 +1,132 @@
+[
+    {
+        "name": "The Curtis",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "1405 Curtis St",
+            "postal-code": "80202",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d83020-Reviews-The_Curtis-Denver_Colorado.html"
+    },
+    {
+        "name": "Embassy Suites Denver - Downtown / Convention Center",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "1420 Stout Street",
+            "postal-code": "80202",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d1859056-Reviews-Embassy_Suites_Denver_Downtown_Convention_Center-Denver_Colorado.html"
+    },
+    {
+        "name": "Hyatt Regency Denver At Colorado Convention Center",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "650 15th Street",
+            "postal-code": "80202",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d573340-Reviews-Hyatt_Regency_Denver_At_Colorado_Convention_Center-Denver_Colorado.html"
+    },
+    {
+        "name": "Residence Inn Denver City Center",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "1725 Champa St",
+            "postal-code": "80202",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d578190-Reviews-Residence_Inn_Denver_City_Center-Denver_Colorado.html"
+    },
+    {
+        "name": "Crowne Plaza Denver International Airport",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "15500 East 40th Avenue",
+            "postal-code": "80239",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d83031-Reviews-Crowne_Plaza_Denver_International_Airport-Denver_Colorado.html"
+    },
+    {
+        "name": "Crowne Plaza Hotel Denver",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "1450 Glenarm Place",
+            "postal-code": "80202",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d119941-Reviews-Crowne_Plaza_Hotel_Denver-Denver_Colorado.html"
+    },
+    {
+        "name": "Hyatt Regency Denver At Colorado Convention Center",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "650 15th Street",
+            "postal-code": "80202",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d573340-Reviews-Hyatt_Regency_Denver_At_Colorado_Convention_Center-Denver_Colorado.html"
+    },
+    {
+        "name": "Super 8 Denver - Airport",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "7010 Tower Rd",
+            "postal-code": "80249",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d1751673-Reviews-Super_8_Denver_Airport-Denver_Colorado.html"
+    },
+    {
+        "name": "The Westin Denver Downtown",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "1672 Lawrence St.",
+            "postal-code": "80202",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d83099-Reviews-The_Westin_Denver_Downtown-Denver_Colorado.html"
+    },
+    {
+        "name": "Magnolia Hotel Denver",
+        "phone": null,
+        "details": null,
+        "address": {
+            "region": "CO",
+            "street-address": "818 17th St.",
+            "postal-code": "80202",
+            "locality": "Denver"
+        },
+        "type": "hotel",
+        "url": "http://www.tripadvisor.com/Hotel_Review-g33388-d83040-Reviews-Magnolia_Hotel_Denver-Denver_Colorado.html"
+    }
+]

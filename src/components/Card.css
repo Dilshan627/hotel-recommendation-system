@@ -1,0 +1,32 @@
+/* Card.css */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.visit-button {
+  margin-top: auto; /* Push the button to the bottom */
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0 0 10px 10px; /* Rounded corners only at the bottom */
+  transition: background-color 0.3s ease;
+}
+
+.visit-button:hover {
+  background-color: #2980b9;
+}
