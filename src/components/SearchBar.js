@@ -37,7 +37,7 @@ const SearchBar = () => {
 
   return (
     <div className="search-bar-container">
-      <h1 className='title'>Best Hotel</h1>
+      <h1 className='title'>Top Best Hotel</h1>
 
       <div className='test'>
         <div className="search-bar">
