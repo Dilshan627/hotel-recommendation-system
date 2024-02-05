@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './SearchBar.css';
 import Card from './Card';
+import { getHotel } from './Request';
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -19,25 +20,25 @@ const SearchBar = () => {
     setShowDropdown(false);
   };
 
-  const handleSearchButtonClick = () => {
+
+  const handleSearchButtonClick = async () => {
     console.log("Search Term:", searchTerm);
-
-    fetch(`http://127.0.0.1:8000/location?location=${searchTerm}`)
-      .then(response => response.json())
-      .then(data => {
-        setHotelsData(data);
-        console.log("Response from server:", data);
-      })
-      .catch(error => {
-        console.error("Error:", error);
-      });
-
+  
+    try {
+      const hotelData = await getHotel(searchTerm);
+      console.log('Hotel Data:', hotelData);
+      setHotelsData(hotelData);
+    } catch (error) {
+      console.error('Error:', error.message);
+    }
+  
     setSearchTerm('');
   };
 
+  
   return (
     <div className="search-bar-container">
-      <h1 className='title'>Top Best Hotel</h1>
+      <h1 className='title'>Best Hotel</h1>
 
       <div className='test'>
         <div className="search-bar">
@@ -77,16 +78,19 @@ const SearchBar = () => {
         )}
       </div>
 
-      {hotelsData.length > 0 && (
+      {hotelsData.length > 0 ? (
         <div className='card-container'>
           <div className="card-row">
             {hotelsData.map((hotel, index) => (
               <Card key={index} hotel={hotel} />
             ))}
           </div>
-        </div>
-      )}
-    </div>
+      </div>
+      ) : (
+     <p className='introduction'>Introducing an innovative AI solution that revolutionizes the way we choose lodging facilities post-travel – a comprehensive platform that seamlessly analyzes both reviews and prices to deliver unparalleled recommendations. Say goodbye to the tedious process of sifting through endless options; our intelligent system intelligently evaluates user reviews and compares prices to ensure you find the perfect accommodation in any given area ...​</p>
+     )}
+
+  </div>
   );
 };
 

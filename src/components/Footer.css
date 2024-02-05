@@ -1,0 +1,33 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    max-width: 300px;
+  }
+  
+  .input-field {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .send-button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
+  .send-button:hover {
+    background-color: #45a049;
+  }
+  

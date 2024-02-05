@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 85vh;
     background: url('./travel.jpg') center/cover no-repeat; 
     position: relative;
     opacity: 0.9;
@@ -123,4 +123,18 @@
 
   .test{
     height: 100px;
+  }
+
+
+  .introduction {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 750px;
+    color: #000;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
   }
