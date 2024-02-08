@@ -18,7 +18,6 @@ const Card = ({ hotel }) => {
 
       <p>Type: {hotel.type}</p>
       
-      {/* "Visit Site" button */}
       {hotel.url && (
         <a href={hotel.url} target="_blank" rel="noopener noreferrer" className="visit-button">
           Visit Site

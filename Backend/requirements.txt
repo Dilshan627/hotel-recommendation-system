@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+nltk
+urllib3==1.26.7
+
+requests==2.26.0
+Flask==1.0.2
+beautifulsoup4==4.10.0
+
+django-cors-headers
